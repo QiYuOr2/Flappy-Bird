@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
+        Screen.SetResolution(480, 800, false);
         if (!isRestart) {
             Time.timeScale = 0;
         }
