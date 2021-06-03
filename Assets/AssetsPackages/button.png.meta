@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 3ae2801723066f04398bd2511c71a48c
+guid: 375673e312bd7cc4b94a1ff25aaf662b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sea_0
+    21300000: button_0
+    21300002: button_1
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -44,10 +45,10 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5020525, y: 0.0874447}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 824}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -96,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sea_0
+      name: button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 200
+        x: 10
+        y: 90
+        width: 140
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,7 +111,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95206031be1a20448dba0a806e826be
+      spriteID: fc08c2f7690b14a42b16ddaa64a19db2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 15
+        width: 140
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9779fdd2aa61003439b593a859d54d76
       vertices: []
       indices: 
       edges: []
@@ -118,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2945815d0a175b84da21c144c0e482c7
+    spriteID: 87d5d4b9db82c0c479b18666caf57082
     vertices: []
     indices: 
     edges: []
